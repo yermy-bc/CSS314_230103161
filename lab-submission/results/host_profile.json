@@ -1,0 +1,15 @@
+{
+  "student_id": "230103161",
+  "cpu_model": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "microarchitecture": "Not reliably detectable with Python standard library",
+  "reported_cpu_mhz": null,
+  "physical_cores": null,
+  "logical_threads": 8,
+  "smt_present": null,
+  "cache": {},
+  "cache_line_bytes": null,
+  "os": "Windows-11-10.0.26300-SP0",
+  "kernel": "11",
+  "python": "3.15.0 (tags/v3.15.0:d220409, Oct  9 2026, 11:55:56) [MSC v.1951 64 bit (AMD64)]",
+  "implementation": "CPython"
+}

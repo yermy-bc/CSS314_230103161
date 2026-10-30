@@ -1,0 +1,21 @@
+{
+  "student_id": "230103161",
+  "kernel": "five-point stencil, four additions plus multiply by 0.2",
+  "flops_per_output": 5,
+  "assumed_bytes_transferred_per_output": 48,
+  "theoretical_arithmetic_intensity_flops_per_byte": 0.10416666666666667,
+  "assumption": "Five 8-byte loads and one 8-byte store per interior output; no neighbor cache re-use accounted for. This is an upper bound on per-output traffic and gives a lower-bound AI.",
+  "hardware_peak_bandwidth_GB_s": null,
+  "hardware_peak_flops_GFlops": null,
+  "ridge_point_flops_per_byte": null,
+  "roofline_classification": "Cannot determine quantitative Roofline regime without measured or manufacturer-specified bandwidth and peak FLOP/s. Low arithmetic intensity makes bandwidth limitation plausible.",
+  "cache": {},
+  "strong_scaling_worker_counts": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "weak_scaling_formula_used": "P * work_1 * T_weak_1 / (work_P * T_weak_P); exactly as written in the handout",
+  "caution": "The handout expression is NOT conventional Gustafson speedup; it may decrease as 1/P for ideal constant weak-scaling runtime. Results report the specified metric without relabeling it."
+}
