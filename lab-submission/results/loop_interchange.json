@@ -13,5 +13,7 @@
     "naive_ijk": "ce9b55bab51460f91574894eefa3fb42f76f0d8f4f6ecb0efa84f17639da1009",
     "interchanged_ikj": "ce9b55bab51460f91574894eefa3fb42f76f0d8f4f6ecb0efa84f17639da1009"
   },
-  "digests_equal": true
+  "digests_equal": true,
+  "naive_time_s": 1.756417,
+  "interchanged_time_s": 1.552308
 }

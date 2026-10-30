@@ -17,5 +17,7 @@
     8
   ],
   "weak_scaling_formula_used": "P * work_1 * T_weak_1 / (work_P * T_weak_P); exactly as written in the handout",
-  "caution": "The handout expression is NOT conventional Gustafson speedup; it may decrease as 1/P for ideal constant weak-scaling runtime. Results report the specified metric without relabeling it."
+  "caution": "The handout expression is NOT conventional Gustafson speedup; it may decrease as 1/P for ideal constant weak-scaling runtime. Results report the specified metric without relabeling it.",
+  "arithmetic_intensity": 0.10416666666666667,
+  "regime": "memory-bound (provisional; hardware peak bandwidth and FLOP/s not established)"
 }
